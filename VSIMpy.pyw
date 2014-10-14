@@ -786,14 +786,14 @@ class MainWindow(wx.Frame):
             
             """Pestaña Planta ----------------------------------------------------------------------------"""
             # Marco Suma de Días Grados:
-            self.SumDiaGra= wx.StaticBox(self.panelNb1, label="Suma días grados (SDG): ")
+            self.SumDiaGra= wx.StaticBox(self.panelNb1, label="Suma días grados, SDG (°C): ")
             self.boxsizerPanelNb10 = wx.StaticBoxSizer(self.SumDiaGra, wx.VERTICAL)
             
-            self.etiquetaSDGb = wx.StaticText(self.panelNb1, 1, label = "SDG brotación: ")
+            self.etiquetaSDGb = wx.StaticText(self.panelNb1, 1, label = "SDG0 brotación: ")
             self.SDGb = wx.TextCtrl(self.panelNb1, 1, "865")
 
 
-            self.etiquetaSDGmiaf = wx.StaticText(self.panelNb1, 1, label = "SDG máximo IAF: ")
+            self.etiquetaSDGmiaf = wx.StaticText(self.panelNb1, 1, label = "SDG10 máximo IAF: ")
             self.SDGmiaf = wx.TextCtrl(self.panelNb1, 1, "600")
 
             self.etiquetaSDGf = wx.StaticText(self.panelNb1, 1, label = "SDG10 caída hojas: ")
